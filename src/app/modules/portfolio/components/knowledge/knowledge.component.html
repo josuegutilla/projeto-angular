@@ -1,0 +1,8 @@
+<div class="container">
+  <h2>Conhecimentos</h2>
+  <ul class="listaConhecimentos">
+    @for (icone of arrayKnowledge(); track $index) {
+      <li><img [src]="icone.src" [alt]="icone.alt" width="22px" height="24px" loading="lazy"></li>
+    }
+  </ul>
+</div>

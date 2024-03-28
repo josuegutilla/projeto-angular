@@ -1,0 +1,13 @@
+.container {
+  width: 700px;
+  // background-color: var(--purple-dark);
+  box-sizing: border-box;
+}
+
+@media (max-width: 750px) {
+  .container {
+    width: 100%;
+    padding: 0 20px;
+    // box-sizing: border-box;
+  }
+}
